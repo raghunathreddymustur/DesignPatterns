@@ -21,7 +21,7 @@ Singleton
 Eager Initialization
 --------------------
 1. Instance is created at the time of class loading. This is simple but not flexible because the instance is created even if it might not be used.
-2. [Example](src/com/company/singletonpattern/template)
+2. [Example](https://github.com/raghunathreddymustur/DesignPatterns/blob/53876325c40be12628795bbd35a3f25ea8249439/src/com/company/singletonpattern/template/EagerSingleton.java)
 
 Lazy Initialization
 -------------------
