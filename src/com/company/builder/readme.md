@@ -13,13 +13,13 @@ why we need it
 
 Template
 -------
-1. Actual Class having final attributes.
+1. Actual Class having final attributes. 
 2. and a nested Builder which will help in constructing actual class step by step.
 
 Code - Variations
 ----
-1. Immutable - Example
-2. Mutable without duplication—Example
+1. Immutable - [Example](https://github.com/raghunathreddymustur/DesignPatterns/blob/2580de534d2ae3bcf3eb1bfa7242584c6d32901a/src/com/company/builder/Person.java)
+2. Mutable without duplication — [Example ](https://github.com/raghunathreddymustur/DesignPatterns/blob/2580de534d2ae3bcf3eb1bfa7242584c6d32901a/src/com/company/builder/Mutable/Person.java)
 
 ## When to Use the Builder Pattern
 
