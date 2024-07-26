@@ -28,12 +28,12 @@ Eager Initialization
 Lazy Initialization
 -------------------
 1. Instance is created when it is needed for the first time. This is more flexible but not thread-safe.
-2. Example
+2. [Example](https://github.com/raghunathreddymustur/DesignPatterns/blob/4f2ae9e1f2aa81e74dfaee0e749e453d97d1ec3f/src/com/company/singletonpattern/template/LazySingleton.java)
 
 ThreadSafe Singleton 
 --------------------
 1. Ensures that the instance is created in a thread-safe manner using synchronized. However, it may reduce performance due to the overhead of synchronization.
-2. Example
+2. [Example](https://github.com/raghunathreddymustur/DesignPatterns/blob/4f2ae9e1f2aa81e74dfaee0e749e453d97d1ec3f/src/com/company/singletonpattern/template/ThreadSafeSingleton.java)
 
 Bill Pugh Singleton Design
 -------------------------
