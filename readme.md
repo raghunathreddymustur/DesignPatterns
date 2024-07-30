@@ -8,7 +8,10 @@ Creational Design Patterns
 3. Factory
    1. [Factory Method](src/com/company/Factory/FactoryMethod/readme.md)
    2. [Abstract Factory](src/com/company/Factory/AbstractFactory/readme.md)
-4. 
+
+Structural design pattern
+-------------------------
+1. [Bridge](src/com/company/Bridge/readme.md)
 
 
 
