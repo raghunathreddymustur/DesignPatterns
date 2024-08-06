@@ -12,6 +12,7 @@ Creational Design Patterns
 Structural design pattern
 -------------------------
 1. [Bridge](src/com/company/Bridge/readme.md)
+2. [composite](src/com/company/composite/readme.md)
 
 
 
