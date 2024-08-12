@@ -15,7 +15,7 @@ Structural design pattern
 1. [Bridge](src/com/company/Bridge/readme.md)
 2. [Composite](src/com/company/composite/readme.md)
 3. [Proxy](src/com/company/proxy/readme.md)
-
+4. [Adapter](src/com/company/adapter/readme.md)
 
 
 
