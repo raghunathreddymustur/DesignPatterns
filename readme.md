@@ -16,7 +16,9 @@ Structural design pattern
 2. [Composite](src/com/company/composite/readme.md)
 3. [Proxy](src/com/company/proxy/readme.md)
 4. [Adapter](src/com/company/adapter/readme.md)
-5. 
+5. [Facade](src/com/company/facade/readme.md)
+6. [Decorator](src/com/company/decorator/readme.md)
+7. [Flyweight Pattern](src/com/company/flyweight/readme.md)
 
 
 
