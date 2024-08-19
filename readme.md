@@ -20,6 +20,10 @@ Structural design pattern
 6. [Decorator](src/com/company/decorator/readme.md)
 7. [Flyweight Pattern](src/com/company/flyweight/readme.md)
 
+Behavioral design pattern
+---------------
+1. [Observer](src/com/company/observer/readme.md)
+
 
 
 ### Different Types of Domains for Software Development
