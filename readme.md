@@ -23,6 +23,7 @@ Structural design pattern
 Behavioral design pattern
 ---------------
 1. [Observer](src/com/company/observer/readme.md)
+2. [Strategy](src/com/company/strategy/readme.md)
 
 
 
