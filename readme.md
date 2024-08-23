@@ -27,6 +27,7 @@ Behavioral design pattern
 3. [TemplateMethod](src/com/company/templateMethod/readme.md)
 4. [State](src/com/company/state/readme.md)
 5. [Command](src/com/company/command/readme.md)
+6. [Mediator](src/com/company/mediator/readme.md)
 
 ### Different Types of Domains for Software Development
 
