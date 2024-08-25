@@ -29,6 +29,7 @@ Behavioral design pattern
 5. [Command](src/com/company/command/readme.md)
 6. [Mediator](src/com/company/mediator/readme.md)
 7. [Visitor](src/com/company/visitor/readme.md)
+8. [Iterator](src/com/company/iterator/readme.md)
 
 ### Different Types of Domains for Software Development
 
