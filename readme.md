@@ -34,6 +34,10 @@ Behavioral design pattern
 10. [Interpreter](src/com/company/interpreter/readme.md)
 11. [Memento](src/com/company/memento/readme.md)
 
+### Good Design Attributes
+1. [Intro](/src/com/company/attributes/intro.md)
+2. Attributes
+   1. [Modularity](/src/com/company/attributes/modularity/readme.md)
 ### Different Types of Domains for Software Development
 
 1. **eCommerce**
