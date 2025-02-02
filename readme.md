@@ -41,6 +41,7 @@ Behavioral design pattern
    2. [Cohesion](src/com/company/attributes/cohesion/readme.md)
    3. [Loose Coupling](src/com/company/attributes/looseCoupling/readme.md)
    4. [Extendability](src/com/company/attributes/extendability/readme.md)
+   5. [Testability](src/com/company/attributes/testability/readme.md)
 
 
 ### Identification
