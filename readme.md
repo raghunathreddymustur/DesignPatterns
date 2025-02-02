@@ -38,6 +38,7 @@ Behavioral design pattern
 1. [Intro](/src/com/company/attributes/intro.md)
 2. Attributes
    1. [Modularity](/src/com/company/attributes/modularity/readme.md)
+   2. [Cohesion](src/com/company/attributes/cohesion/readme.md)
 ### Different Types of Domains for Software Development
 
 1. **eCommerce**
