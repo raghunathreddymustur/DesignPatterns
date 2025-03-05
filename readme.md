@@ -4,7 +4,9 @@ Design Patterns
 Design Priciples
 -----------------
 1. Solid
-   1. SRP : single reason to changes and always engineer to requirements(do not assume future changes unless it is specified). 
+   1. SRP : Single reason to changes and always engineer to requirements(do not assume future changes unless it is specified).
+   2. Open Closed Principle : Open for extensions and close for moditification
+   3. 
 
 
 
