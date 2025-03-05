@@ -1,6 +1,13 @@
 Design Patterns
 ---------------
 
+Design Priciples
+-----------------
+1. Solid
+   1. SRP : single reason to changes and always engineer to requirements(do not assume future changes unless it is specified). 
+
+
+
 Creational Design Patterns
 ------------------------
 1. [Builder Pattern](src/com/company/builder/readme.md)
