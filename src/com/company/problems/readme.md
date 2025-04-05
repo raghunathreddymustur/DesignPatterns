@@ -1,6 +1,7 @@
 # Index
 
 1. [Meeting Scheduler](meetingSchedular/requeriments.md)
+2. [BookMyShow](BookMyShow/readme.md)
 
 
 
@@ -10,6 +11,9 @@
 1. Ask how system determines something
 2. Ask what are conditions does system needs to fulfill certain objective
 3. Ask what system does for negative use cases 
+4. What different ways user can do something
+5. Will something vary based on something else
+6. Ask for possible concurrent requests
 
 ### Scope the Requirements
 1. scope the requirements by gathering from interviewer
