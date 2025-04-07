@@ -96,6 +96,33 @@ Managing instances:
 ![img.png](img.png)
 
 
+## Concurrency Handling
+
+### Overview
+To prevent double booking of seats for the same show, the system employs **locks** (optimistic locks or versioning) for concurrency control.
+
+### Seat Selection Process
+1. **Version Assignment**:
+  - Each customer selecting a seat is assigned a version number (e.g., V1).
+  - If multiple customers select the same seat simultaneously, they'll share the same version number initially.
+
+### Lock Management
+2. **Mutex Locking**:
+  - A lock with a timestamp is assigned at the payment phase.
+  - This lock ensures only one customer can complete the booking process within its active period.
+
+### Payment and Update Mechanism
+3. **Booking Finalization**:
+  - The system validates the version before confirming the booking.
+  - Upon successful payment:
+    - The lock is released.
+    - The system's version is updated.
+  - Other customers attempting to book the same seat must restart the process due to the updated system version.
+
+This mechanism ensures consistent and fair seat allocation while efficiently managing concurrency.
+
+---
+
 
 ## White Note
 
