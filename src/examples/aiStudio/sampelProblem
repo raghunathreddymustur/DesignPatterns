@@ -1,0 +1,28 @@
+Tic tac toe
+-----------
+Features Required:
+Initialization: Ability to initialize a new game.
+
+Move Validation: Check if a move is valid.
+
+Board Update: Update the board with the player's move.
+
+Win Condition: Check for a win condition.
+
+Draw Condition: Check for a draw condition.
+
+Player Switching: Switch between players after each move.
+
+Classes
+-------
+TicTocGame
+Board
+Player
+    - Human
+    - Bot
+MoveStrategy
+WinStrategy
+MoveObserver
+
+
+

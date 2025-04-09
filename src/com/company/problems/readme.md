@@ -18,6 +18,14 @@
 ### Scope the Requirements
 1. scope the requirements by gathering from interviewer
 
+### Use case Patterns
+1. If different users - add common functions such as creation, update, delete or common functionality in base class.
+2. Have sending of notification at system level 
+3. If there is search functionality, first create catalog of search Objects and extend that catalog to provide methods to each object 
+   ![img.png](img.png)
+4. PossibleEnumerations: having Status(ReservationStatus), different Types(MotorCycle(Roadster, cruiser, touring, sport))
+
+
 ### Class Diagrams
 1. Group related requirements and identify the class(nouns), possible variable names, methods(action verbs) 
 
