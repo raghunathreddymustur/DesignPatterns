@@ -60,6 +60,27 @@ Learn about all requirements of the ATM design.
 ## Class Diagram
 ![img.png](img.png)
 
+### Additional Requirements
+There is a chance that the interviewer might ask about the working of the cash withdrawal process. How can it be implemented in our ATM system?
+
+This addition is a bit challenging since we need a system that can withdraw the correct combinations of hundred, twenty, and two dollar bills, respectively, according to the amount specified by the user. The system also needs to work sequentially until the required amount is met.
+
+We will use the Chain of Responsibility design pattern to tackle this addition to our system. This design pattern will ensure the correct division of the dollar bills in the ATM by creating a chain of handlers that forward the requests based on the situation until all the requirements are met.
+
+We have created the following classes to implement the Chain of Responsibility design pattern:
+
+- **CashWithdrawProcessor**: This is associated with the CashWithdrawalState class. This abstract class is extended by HundredDollarWithdrawProcessor, TwentyDollarWithdrawProcessor, and TwoDollarWithdrawProcessor.
+- **HundredDollarWithdrawProcessor**: This class is derived from CashWithdrawProcessor and is responsible for withdrawing hundred-dollar bills based on the requirement.
+- **TwentyDollarWithdrawProcessor**: This class is derived from CashWithdrawProcessor and is responsible for withdrawing twenty-dollar bills based on the requirement.
+- **TwoDollarWithdrawProcessor**: This class is derived from CashWithdrawProcessor and is responsible for withdrawing two-dollar bills based on the requirement.
+
+**Valid Amount**: If the amount entered by the user has a modulus equal to zero with any of the specified bills that the ATM can withdraw, then the amount is considered valid for the transaction. If the amount is invalid, then the transaction will not be processed.
+
+For example, a user wants to withdraw $548. The HundredDollarWithdrawProcessor class will start the cash withdrawal using the `cashWithdrawal()` method by taking out five bills of hundred dollars. Now that we have $48 to withdraw for the user which is less than a hundred dollars, the TwentyDollarWithdrawProcessor class will start withdrawing dollar bills. This class will take out two bills of twenty dollars with $8 remaining. Since two dollars is less than twenty, the `cashWithdrawal()` method of the TwoDollarWithdrawProcessor will take out four bills of $2 for the user. The withdrawal, in this case, is successful.
+![img_1.png](img_1.png)
+---
+
+
 ## WhiteNotes
 
 ### Classes
