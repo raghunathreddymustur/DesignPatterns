@@ -5,6 +5,7 @@
 3. [CarRentalSystem](carRentalSystem/readme.md)
 4. [ATM](ATM/readme.md)
 5. [Chess](chess/readme.md)
+6. [Hotel management system](hotelManagementSystem/readme.md)
 
 
 ## Tips
