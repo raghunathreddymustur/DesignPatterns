@@ -7,17 +7,19 @@
 5. [Chess](chess/readme.md)
 6. [Hotel management system](hotelManagementSystem/readme.md)
 7. [Amazon](Amazon/readme.md )
+8. [Stack Overflow](StackOverflow/readme.md)
 
 
 ## Tips
 
 ### Clarification of Requirements
 1. Ask how system determines something
-2. Ask what are conditions does system needs to fulfill certain objective
+2. Ask what are conditions does system needs to fulfill certain goal
 3. Ask what system does for negative use cases 
 4. What different ways user can do something
 5. Will something vary based on something else
 6. Ask for possible concurrent requests
+7. How user search for a product
 
 ### Scope the Requirements
 1. scope the requirements by gathering from interviewer
