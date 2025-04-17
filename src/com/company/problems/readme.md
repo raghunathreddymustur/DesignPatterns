@@ -8,6 +8,7 @@
 6. [Hotel management system](hotelManagementSystem/readme.md)
 7. [Amazon](Amazon/readme.md )
 8. [Stack Overflow](StackOverflow/readme.md)
+9. [Restaurant Management System](RestaurantManagementSystem/readme.md)
 
 
 ## Tips
