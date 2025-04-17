@@ -1,6 +1,10 @@
 Design Patterns
 ---------------
 
+## Sample Questions
+1. [Sample Questions](src/com/company/problems/readme.md)
+
+
 Design Priciples
 -----------------
 1. Solid
