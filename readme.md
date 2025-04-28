@@ -1,7 +1,9 @@
+
 Design Patterns
 ---------------
 
 ## Sample Questions
+
 1. [Sample Questions](src/com/company/problems/readme.md)
 
 
@@ -10,7 +12,6 @@ Design Priciples
 1. Solid
    1. SRP : Single reason to changes and always engineer to requirements(do not assume future changes unless it is specified).
    2. Open Closed Principle : Open for extensions and close for moditification
-   3. 
 
 
 
@@ -84,3 +85,23 @@ Behavioral design pattern
 18. **Legal**
 19. **Human Resources**
 20. **Marketing and Advertising**
+
+
+## 🧩 Design Patterns for Jigsaw Puzzle
+
+While a jigsaw puzzle design might not heavily rely on complex design patterns, some principles can still apply:
+
+*   **Composite:** The puzzle board can be seen as a composite of individual pieces, where each piece is a leaf node, and the board is the composite.
+*   **Strategy:** Different strategies can be implemented to solve the puzzle (e.g., edge-first, color-grouping).
+
+### Why Bottom-Up?
+
+The bottom-up approach is ideal for a jigsaw puzzle because it allows us to:
+
+*   **Focus on Details:** Define the characteristics of a single puzzle piece first.
+*   **Build Complexity Incrementally:** Gradually add complexity by assembling smaller parts into larger ones.
+
+## JigSaw Puzzle whiteBoard
+
+### Class Diagrams
+- Board : hasShape(rectangle) and doesTwoPiecesMatch\n- picture : noOfPieces\n- Shape\n- Piece : typesOfPieces and unique\n
